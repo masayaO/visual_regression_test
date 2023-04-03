@@ -8,7 +8,7 @@ const Card: FC<Props> = ({title, description}) => {
 
   return (
     <div style={{padding: '20px', border: '1px solid black', width: '200px'}}>
-      <h3>{title}</h3>
+      <h3 style={{color: "red"}}>{title}</h3>
       <p>{description}</p>
     </div>
   )
