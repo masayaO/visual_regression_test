@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: '16'
       - name: Install dependencies
         # 👇 Install dependencies with the same package manager used in the project (replace it as needed) e.g. yarn, npm, pnpm
         run: yarn
